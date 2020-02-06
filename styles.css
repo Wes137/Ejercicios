@@ -1,0 +1,155 @@
+body{
+    margin: 0px;
+    font-family: Verdana;
+}
+
+.menu-container{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    height: 50px;
+    padding: 20px 20px;
+    background-color: #98989880;
+    position: fixed;
+    width: 100%;
+}
+
+.logo{
+    flex: 1 1 300px;
+}
+
+.logo>img{
+    max-height: 100%;
+}
+
+.menu{
+    flex: 1 1 300px;
+}
+
+.menu ul{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;    
+    list-style: none;
+    padding-left: 0px;
+}
+.menu ul>li{
+    flex-grow: .5;
+}
+.menu a{
+    color: #FFF;
+    text-decoration: none;
+}
+
+.menu a:hover{
+    color: #000;
+}
+
+.inicio{
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    background-image: url(coding.jpg);
+    height: 700px;
+    align-items: center;
+    color: #FFF;
+    justify-content: space-around;
+}
+
+.inicio>.caption{
+    flex: 0 1 40%;
+    background-color: #00000085;
+    padding: 30px;
+    border-radius: 4px;
+}
+
+.inicio h1{
+    font-size: 42px;
+    margin-top: 0px;
+}
+
+.redes-sociales i{
+    padding: 20px;
+    border-radius: 50%;
+    border: solid 1px #FFF;
+    font-size: 21px;
+    color: #FFF;
+    margin: 0px 10px;
+}
+
+.redes-sociales .fa-facebook-f{
+    padding-left: 23px;
+    padding-right: 23px;
+}
+
+.container{
+    display: flex;
+    background-color: #000;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    max-width: 40%;    
+}
+
+.foto{
+    border: 3px solid yellow;
+    margin: 15px 10px;
+}
+
+.foto>img{
+    height: 400px;
+}
+
+.about{
+    color: grey;
+    width: 100%;
+}
+
+.about-me-title{
+    color: white;
+}
+
+.lista-descripcion{
+    list-style: none;
+}
+
+.mis-datos{
+    color: white;
+    width: 25%;
+    display: inline-block;
+}
+
+.inicio:hover{
+    background-color: red;
+}
+
+.btn-cv{
+    padding: 23px 40px;
+    text-decoration: none;
+    display: block;
+    color: white;
+    background: #efbc04;
+    border-radius: 40px;
+    width: 20%;
+    text-align: center;
+}
+
+.btn-cv:hover{
+    background: #fff;
+    color: #efbc04;
+}
+
+.face>i:hover{
+    color: #FFF;
+    background: #3b5998;
+}
+.github>i:hover{
+    background-color: #fff;
+    color: #24292e;
+}
+.instagram>i:hover{
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%,#d6249f 60%,#285AEB 90%);
+}
